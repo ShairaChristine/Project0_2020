@@ -1,0 +1,149 @@
+/* General class */
+body{
+    margin: 0;
+    font-family: arial,sans-serif;
+}
+.h-100{
+    height: 100%;
+}
+.h-100vh{
+    height: 100vh;
+}
+.w-100{
+    width: 100%;
+}
+.m-0{
+    margin: 0;
+}
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.f-column{
+    flex-direction: column;
+}
+input{
+    cursor: pointer;
+}
+
+/* Specific styles */
+
+/* General component */
+.header a{
+    padding: 10px 15px;
+    color: #5F6368;
+    text-decoration: none;
+}
+.logo{
+
+    -ms-flex: 1 1 auto!important;
+    flex: 1 1 auto!important;
+}
+.logo img{
+    max-height: 30px;
+}
+
+
+
+/* Google search */
+.search-wrapper{
+    padding: 0 50px;
+}
+.search-form{
+    padding: 15px;
+}
+.search-form input:focus,
+.search-form input{
+    outline: transparent;
+    /* width: 100%; */
+}
+.search-form input[type="text"]{
+    /* width: 100%; */
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 0 15px;
+}
+.search-form input[type="text"]:hover,
+.search-form input[type="text"]:active{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.btn-center{
+    margin-top: 15px;
+}
+.btn-center.d-flex input {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    user-select: none;
+}
+
+/* Image Search */
+.sub-text{
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 103px;
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+
+}
+.image-search-wrapper{
+    border: 1px solid rgba(0,0,0,.2);
+    /* padding: 20px; */
+    margin: 10px;
+}
+.image-search-wrapper h5{
+    padding: 15px;
+}
+
+/* Advance Search */
+.advance .header{
+    background-color: #f1f1f1;
+}
+.advance .wrapper{
+    padding: 30px;
+}
+.advance h3{
+    color: #d93025;
+    font-size: 20px;
+}
+.advance label{
+    color: #222;
+    font-size: 13px;
+}
+.advance input{
+    margin-bottom: 10px;
+    max-width: 50%;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+.advance input[type="submit"]{
+    height: unset;
+    border: 1px solid #3079ed;
+    box-shadow: none;
+    background-color: #4d90fe;
+    color: #fff;
+    width: auto;
+    max-width: min-content;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
